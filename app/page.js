@@ -1,6 +1,6 @@
-// import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+function page() {
   return (
     <div className="w-100vw h-100vh relative">
       <div className="flex flex-row justify-center items-center w-full h-full absolute top-[50vh]">
@@ -13,3 +13,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default page;
